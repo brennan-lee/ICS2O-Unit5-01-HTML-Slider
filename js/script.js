@@ -26,7 +26,6 @@ function updateSliderValue(valueFromSlider) {
  * This function displays the slider value.
  */
 
-
 function myButtonClicked() {
   document.getElementById("hello-world").innerHTML =
     "<p>Value is: " + slider.value + "</p>"
