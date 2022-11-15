@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 Math.floor(Math.random() * 6) + 1 // returns a random integer from 1 to 6
 
 function updateSliderValue(valueFromSlider) 
-  document.getElementById("slider-vaue").innerHTML = valueFromSlider
+  document.getElementById("slider-value").innerHTML = valueFromSlider
 
   if (valueFromSlider == randomNumber) {
     document.getElementById("answer").innerHTML = 
