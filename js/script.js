@@ -15,20 +15,23 @@ if (navigator.serviceWorker) {
   })
 }
 
-/**
- * This function updates the slider value.
- */
-function updateSliderValue(valueFromSlider) {
-  document.getElementById("slider-value").innerHTML = valueFromSlider
-}
-
-/**
- * This function displays the slider value.
- */
-
 Math.floor(Math.random() * 6) + 1 // returns a random integer from 1 to 6
 
-function myButtonClicked() {
+function updateSliderValue(valueFromSlider) 
+  document.getElementById("slider-vaue").innerHTML = valueFromSlider
+
+  if (valueFromSlider == randomNumber) {
+    document.getElementById("answer").innerHTML = 
+    "the answer was, " + randomNumber + "!" + "you got it! Good job."
+}
+
+if (sliderFromSlider != randomNumber) {
+  document.getElementById("answer").innerHTML = 
+  "the answer was, " + randomNumber + "!" + "nice guess, but try again."
+}
+
+/**function myButtonClicked() {
   document.getElementById("hello-world").innerHTML =
     "<p>Value is: " + slider.value + "</p>"
-}
+} */
+
