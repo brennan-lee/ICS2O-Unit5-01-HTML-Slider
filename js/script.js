@@ -15,7 +15,7 @@ if (navigator.serviceWorker) {
   })
 }
 
-Math.floor(Math.random() * 6) + 1 // returns a random integer from 1 to 6
+const randomNumber = Math.random(math.random() * 6) + 1 // returns a random integer from 1 to 6
 
 function updateSliderValue(valueFromSlider) {
   document.getElementById("slider-value").innerHTML = valueFromSlider
