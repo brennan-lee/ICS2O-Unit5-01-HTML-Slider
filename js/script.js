@@ -30,8 +30,3 @@ if (sliderFromSlider != randomNumber) {
   document.getElementById("answer").innerHTML =
     "the answer was, " + randomNumber + "!" + "nice guess, but try again."
 }
-
-/**function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML =
-    "<p>Value is: " + slider.value + "</p>"
-} */
