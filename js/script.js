@@ -17,11 +17,11 @@ if (navigator.serviceWorker) {
 
 const randomNumber = Math.floor(Math.random() * 6) + 1 // returns a random integer from 1 to 6
 
-function updateSliderValue(valueFromSlider) {
-  document.getElementById("slider-value").innerHTML = valueFromSlider
+function updateSliderValue(valueFromslider) {
+  document.getElementById("slider-value").innerHTML = valueFromslider
 }
 
-if (valueFromSlider == randomNumber) {
+if (valueFromslider == randomNumber) {
   document.getElementById("answer").innerHTML =
     "the answer was, " + randomNumber + "!" + "you got it! Good job."
 }
